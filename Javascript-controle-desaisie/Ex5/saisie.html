@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="test.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <h1>La saisie des notes</h1>
+            <label for="">Numero de l'eleve</label>
+            <input type="text" id="num">
+            <hr>
+            <label for="">Matiere</label> <br>
+            <select name="" id="mat">
+                <option value="">Choisir une matiere</option>
+                <option value="">Algorithmique et programmation</option>
+                <option value="">Base de donnee</option>
+                <option value="">Technologies de l'informatique et de la Communication</option>
+            </select>
+
+            <label for="">Note de DC</label>
+            <input type="text" id="dc">
+
+            <label for="">Note de DS</label>
+            <input type="text" id="ds"> <br>
+
+            <input type="reset">
+            <input type="submit" value="Valider" onclick="return verif()">
+        </fieldset>
+    </form>
+</body>
+</html>
