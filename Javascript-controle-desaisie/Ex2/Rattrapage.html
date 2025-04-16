@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="inscrit.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <label>Code eleve</label>
+            <input type="text" id="Code"> <br>
+            <label>Matiere de base</label>
+            <select id="mdb">
+                <option value="">Choisir une matiere de base</option>
+                <option value="">Math</option>
+                <option value="">Physique</option>
+                <option value="">sport</option>
+            </select> <br>
+            <label for="">Matiere Optionnelle :</label> <br>
+            <input type="checkbox" id="ck1">
+            <label>Dessin</label> 
+            <input type="checkbox"id="ck2">
+            <label>Allemand</label>
+            <input type="checkbox"id="ck3">
+            <label>Italien</label>
+            <input type="checkbox"id="ck4">
+            <label>Realisation Projet</label> <br>
+
+            <input type="submit" value="S’inscrire" onclick="return verif()">
+            <input type="reset" value="Annuler">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
