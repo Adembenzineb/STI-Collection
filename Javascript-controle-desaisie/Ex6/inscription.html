@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Inscription d'un client</legend>
+            <label for="">Nom :</label>
+            <input type="text" id="nom"> <br>
+            <label for="">Prenom :</label>
+            <input type="text" id="prenom"> <br>
+            <label for="">Tel :</label>
+            <input type="tel" id="tell"> <br>
+            <label for="">Adresse :</label>
+            <textarea name="" id="adr"></textarea>
+
+            <hr>
+
+            <label for="">Mot de passe</label>
+            <input type="password" id="mdp1">
+            <label for="">Confirmation de mot de passe</label>
+            <input type="password" id="mdp2">
+
+            <input type="reset" value="Annuler">
+            <input type="submit" value="Valider" onclick="return verif1()">
+        </fieldset>
+    </form>
+</body>
+</html>
